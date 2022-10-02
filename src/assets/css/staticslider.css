@@ -1,0 +1,147 @@
+.home_slider {
+  /* margin-top: 50px; */
+  height: 500px;
+  position: relative;
+  background-color: #14141f;
+}
+
+.home_slider p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 56px;
+  padding-left: 110px;
+}
+
+.strong_text1,
+.strong_text2,
+.strong_text3,
+.strong_text4 {
+  color: #5142fc;
+  margin-left: 10px;
+}
+
+.text_row_1 {
+  padding-top: 170px;
+}
+
+.img_slider {
+  width: 75rem;
+  height: 48rem;
+  position: absolute;
+  right: 0px;
+  top: 60px;
+}
+
+.home_position_style {
+  position: absolute;
+  top: 430px;
+  left: 115px;
+}
+
+@media screen and (max-width: 1300px) {
+  .home_slider p {
+    font-size: 2.5rem;
+  }
+
+  .img_slider {
+    width: 55%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .text_row_1 {
+    padding-top: 150px;
+  }
+
+  .home_slider p {
+    font-size: 2rem !important;
+  }
+
+  .img_slider {
+    top: 140px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .home_slider p {
+    padding-left: 50px;
+  }
+
+  .home_position_style {
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .home_slider p {
+    padding-left: unset;
+    text-align: center;
+  }
+
+  .home_position_style {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    justify-content: center !important;
+    display: flex !important;
+  }
+
+  .img_slider {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .text_row_1 {
+    padding-top: 100px;
+  }
+
+  .home_slider p {
+    font-size: 25px;
+  }
+
+  .home_position_style {
+    top: 480px;
+  }
+}
+
+/* @media screen and (max-width: 635px) {
+    .home_position_style {
+        top: 515px;
+    }
+} */
+
+@media screen and (max-width: 635px) {
+  .home_slider p {
+    font-size: 17px;
+  }
+
+  .home_position_style {
+    top: 340px;
+  }
+
+  .home_slider {
+    height: 440px;
+  }
+
+  .flat-bt-slider .sc-button.style span {
+    padding-left: 22px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .home_position_style {
+    top: 350px;
+  }
+
+  .home_slider p {
+    font-size: 17px !important;
+  }
+
+  .home_slider {
+    height: 420px;
+  }
+}

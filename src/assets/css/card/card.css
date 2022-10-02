@@ -1,0 +1,8 @@
+.side-bar.style-3.item.zindex-card {
+  z-index: 10;
+}
+
+.text-level-card {
+  display: flex;
+  justify-content: flex-start;
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width:1025px) {
+    .mine_value .create {
+        padding: 50px !important;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .mine_value .create {
+        padding: 30px !important;
+    }
+}

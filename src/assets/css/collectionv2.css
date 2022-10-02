@@ -1,0 +1,22 @@
+.new__collection .sc-card-collection {
+    height: 394px;
+    position: relative;
+}
+
+.new__collection .sc-card-collection .media-images-box .img__main {
+    height: 400px;
+    width: 46%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 125px;
+}
+
+.new__collection .sc-card-collection .media-images-box .right__img {
+    width: 47%;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    top: 125px;
+}

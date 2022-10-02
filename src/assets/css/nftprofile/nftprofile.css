@@ -1,0 +1,402 @@
+.price-usdc {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: -15px;
+  color: #ffffff;
+}
+
+.content-again .price {
+  margin-top: -13px;
+}
+
+.text-level-nft {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.author-profile.flex .feature-profile img {
+  object-fit: cover;
+  max-height: 225px;
+}
+
+.author-profile.flex .infor-profile span {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.tf-title.style2.start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.col-xl-3.col-lg-4.col-md-6.col-12.flex {
+  flex: 0 0 22%;
+  margin-left: 2%;
+}
+
+.card-media.heigth {
+  height: 287px;
+}
+
+/* .sc-card-article .meta-info .author .avatar,
+.sc-card-product .meta-info .author .avatar.container {
+  width: 44px !important;
+  height: 44px !important;
+}
+
+.sc-card-article .meta-info .author .avatar,
+.sc-card-product .meta-info .author .avatar.container img {
+  width: 44px !important;
+  height: 44px !important;
+} */
+
+.tab-authors .author-profile .feature-profile.image img {
+  width: 293px;
+  height: 293px;
+  /* margin-top: 60px; */
+}
+
+.project-year {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  text-align: right;
+  text-transform: capitalize;
+
+  /* On Surface */
+
+  color: #ffffff;
+}
+
+.heading.style-2.right {
+  display: flex;
+  justify-content: flex-start !important;
+}
+
+/* .tf-item-details .content-right .meta-item-details .item .heading.style-2  */
+
+/* .container-image {
+  background-color: aqua;
+  height: 100%;
+} */
+.image-fake {
+  width: 30.5%;
+  height: 110px;
+}
+
+.img-user-nft {
+  width: unset;
+  height: unset;
+}
+
+/* ======================profile======================== */
+.sc-card-product .meta-info .price.text-left {
+  text-align: left;
+}
+
+.overflow {
+  display: -webkit-box;
+  /* số dòng hiển thị */
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.author-profile.flex.heigth-350px.display {
+  background: unset;
+}
+
+/* ======================collection profile ========================== */
+.content-tab.margin-top-coll {
+  margin-top: 165px;
+}
+
+.widget-social.style-3.collection {
+  flex-flow: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.wishlist-button.heard-collection {
+  position: unset;
+  justify-content: flex-end;
+  /* padding-right: 30px; */
+  padding: 0px 0px;
+  /* width: 35px; */
+}
+
+.text-top-collection {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.wishlist-button.heard-collection .number-like {
+  font-size: 23px;
+  font-weight: 700;
+  text-align: end;
+}
+
+.usdc-collection {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+/*============================ footer ==================================*/
+.margin-footer {
+  position: absolute;
+  width: 100%;
+  margin-left: -10px;
+  z-index: 20;
+}
+
+.logo-dark.logofooter-beta {
+  width: 195px;
+  height: 110px;
+  margin-left: -10px;
+}
+
+/* ============================ sibar ================= */
+.side-bar.item .widget-category .from-sibar {
+  padding-right: 20px;
+  margin-bottom: 0;
+}
+
+/* new ui profile */
+
+.nft_collection_profile {
+  min-height: 327px;
+  /* background-color: red; */
+  position: relative;
+}
+
+.nft_collection_profile .nft_collection_profile_left_content {
+  position: absolute;
+  /* background-color: blue; */
+  top: 56px;
+  left: 68px;
+  max-width: 407px;
+}
+
+.nft_collection_profile .nft_collection_profile_left_content .rank_name {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 35px;
+  color: #5142fc;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nft_collection_profile .nft_collection_profile_left_content .user_name {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height, or 122% */
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.nft_collection_profile .nft_collection_profile_left_content .user_decreption {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+  /* Secondary */
+  color: #ebebeb;
+}
+
+.nft_collection_profile .nft_collection_profile_left_content .bages_imgs {
+  /* background-color: red; */
+  margin-top: 26.55px;
+  display: flex;
+
+  /* justify-content: space-between; */
+}
+
+.nft_collection_profile
+  .nft_collection_profile_left_content
+  .bages_imgs
+  .bages_imgs_items {
+  width: 50.45px;
+  height: 50.45px;
+  object-fit: cover;
+  /* background: #7a798a; */
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.nft_collection_profile .right_content {
+  position: absolute;
+  right: 31px;
+  top: 56.71px;
+}
+
+.nft_collection_profile .right_content .link_icon {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+}
+
+.nft_collection_profile .right_content .link_icon svg {
+  margin-left: 10px;
+}
+
+.nft_collection_profile .right_content .number_container {
+  text-align: right;
+}
+
+.nft_collection_profile .right_content .number_container {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ebebeb;
+}
+
+.nft_collection_profile .right_content .number_container .number_title {
+  /* margin-right: 17px; */
+}
+
+.nft_collection_profile .right_content .number_container span {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #5142fc;
+  margin-left: 17px;
+}
+
+.nft_collection_profile .user_avatar {
+  position: absolute;
+  width: 195px;
+  height: 195px;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  object-fit: cover;
+  top: 61px;
+}
+
+.nft_collection_profile .right_content .link_container_border {
+  background: #ebebeb;
+  border-radius: 50px;
+  position: relative;
+  padding: 8px 20px;
+  margin-top: 22px;
+}
+
+.nft_collection_profile .right_content .link_container_border .link_address {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #7a798a;
+}
+
+.nft_collection_profile .right_content .link_container_border svg {
+  position: absolute;
+  right: 21px;
+  top: 10px;
+  bottom: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .nft_collection_profile .nft_collection_profile_left_content {
+    max-width: 30%;
+  }
+}
+
+@media screen and (max-width: 913px) {
+  .nft_collection_profile {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .nft_collection_profile .user_avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  .nft_collection_profile
+    .nft_collection_profile_left_content
+    .bages_imgs
+    .bages_imgs_items {
+    /* margin-right: 10px; */
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .nft_collection_profile
+    .nft_collection_profile_left_content
+    .bages_imgs
+    .bages_imgs_items {
+    width: 75px;
+  }
+
+  .nft_collection_profile .nft_collection_profile_left_content .bages_imgs {
+    flex-wrap: wrap;
+  }
+
+  .nft_collection_profile .nft_collection_profile_left_content {
+    max-width: 90%;
+  }
+  .nft_collection_profile {
+    min-height: 690px;
+  }
+
+  .nft_collection_profile .nft_collection_profile_left_content {
+    top: 210px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: center;
+  }
+
+  .nft_collection_profile .right_content {
+    bottom: 25px;
+    top: unset;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  .nft_collection_profile .right_content .number_container {
+    text-align: center;
+  }
+
+  .nft_collection_profile .right_content .link_icon {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .nft_collection_profile
+    .nft_collection_profile_left_content
+    .bages_imgs
+    .bages_imgs_items {
+    width: 40px;
+  }
+}

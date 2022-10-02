@@ -1,0 +1,111 @@
+@media screen and (max-width: 321px) {
+    .collection_profile .tab-authors .author-profile .btn-profile a.sc-button {
+        padding: 12px 20px;
+    }
+
+    .collection_profile .tab-authors .author-profile .infor-profile form {
+        width: unset;
+    }
+
+    .collection_profile .tab-authors .author-profile .btn-profile a.sc-button {
+        padding: 10px 15px;
+    }
+
+     
+    
+}
+
+@media screen and (max-width: 376px) {
+    .collection_profile .tab-authorMining .react-tabs__tab {
+        padding: 20px 18px!important;
+    }
+
+   
+
+}
+
+@media screen and (max-width: 426px) {
+    .collection_profile .tab-authors .author-profile .avatar {
+        max-width: unset !important;
+    }
+
+    .collection_profile .tab-authors .author-profile .feature-profile {
+        justify-content: center;
+    }
+
+    .collection_profile .tab-authorMining .react-tabs__tab {
+        padding: 20px 18px !important;
+    }
+
+    .collection_profile  .tab-authors .author-profile .infor-profile form  {
+        justify-content: center;
+        display: flex;
+    }
+
+    .collection_profile .tab-authors .author-profile .infor-profile button {
+        position: absolute;
+        right: 0px;
+        left: 0px;
+        margin: 0 auto;
+        transform: translateX(65px);
+    }
+
+    /* .collection_profile .tab-authors .author-profile .infor-profile input {
+        position: relative;
+    } */
+
+    .collection_profile .tab-authors .author-profile .infor-profile form {
+        position: absolute;
+        top: 50px;
+        left:0px;
+        right: 0px;
+        margin: 0 auto;
+    }
+
+    .collection_profile .author-profile.flex .feature-profile img {
+        position: absolute;
+        top: -115px;
+        left:0px;
+        right: 0px;
+        margin: 0 auto;
+    }
+
+    .collection_profile .react-tabs__tab-panel {
+        /* background-color: blue; */
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    
+    .collection_profile .react-tabs__tab-panel {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+        
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .collection_profile .author-profile.flex .feature-profile img {
+        position: absolute;
+        top: -155px;
+        left:0px;
+        right: 0px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+    .collection_profile .react-tabs__tab-panel {
+        /* background-color: blue; */
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .collection_profile .col-xl-3.col-lg-4.col-md-6.col-12.flex {
+        margin-left: 1%;
+    }
+}

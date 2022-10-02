@@ -1,0 +1,126 @@
+.grid-dialog-project {
+  width: 394px;
+  height: 378px;
+  border-radius: 20px;
+}
+
+.box-dialog-project {
+  width: 394px;
+  height: 378px;
+  background-color: #343444;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.MuiPaper-root.MuiDialog-paper {
+  background-color: unset;
+}
+
+.text-dialog-project {
+  width: 215px;
+  height: 52px;
+
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 26px;
+  /* or 137% */
+
+  text-align: center;
+  color: #ffffff;
+}
+
+.title-dialog-project {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: capitalize;
+  gap: 10px;
+  color: #ffffff;
+  display: flex;
+  margin-top: 30px;
+}
+
+.button-project-dialog {
+  width: 66px;
+  height: 27px;
+  background: #5142fc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.power-dialog-project {
+  width: 48px;
+  height: 20px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.enter-dialog-project {
+  width: 215px;
+  height: 68px;
+  /* Primary */
+}
+
+.enter-dialog-project .input {
+  border: 1px solid #5142fc;
+  border-radius: 8px;
+}
+
+.submit-dialog-project {
+  width: 336px;
+  height: 51px;
+  background: #5142fc;
+  /* Primary */
+  border: 1px solid #5142fc;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.content-dialog-project {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* =======================================project profile================================== */
+.is_dark .sc-button.loadmore.style.bag.fl-button.pri-3.primary {
+  background: #5142fc;
+  border: 1px solid #5142fc;
+}
+
+.button-select-cause {
+  width: 150px;
+  right: 20px;
+}
+
+.text-bt-cause {
+  font-size: 13px;
+}

@@ -1,0 +1,48 @@
+.card-media {
+  height: 240px;
+  width: 171px;
+}
+.featured-countdown span {
+  font-size: 14px;
+}
+.sc-card-product {
+  min-height: 70px;
+  max-height: 520px;
+}
+.sc-card-product.comingsoon {
+  min-height: 520px;
+}
+.card-bottom .btn-style {
+  width: 50%;
+}
+.card-bottom .btn-style-width {
+  width: 70%;
+  margin-left: -10px;
+}
+.card-bottom span {
+  font-size: 13px;
+}
+.card-bottom .reload {
+  width: 50%;
+}
+.card-bottom .btn-style .custom_button .content_bton {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card-bottom .btn-style .custom_button {
+  padding: 8px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-bottom .btn-style .custom_button span {
+  font-size: 13px;
+  margin: 0 0 0 5px;
+}
+
+.custom_button.w-100.primary {
+  border: 1px solid #5142fc !important;
+}
